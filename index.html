@@ -112,8 +112,9 @@
         }
 
         // Display the result
+        const links = ["https://uwmadison.co1.qualtrics.com/jfe/form/SV_4Jh2d38JAToAb5k","https://uwmadison.co1.qualtrics.com/jfe/form/SV_01bQS5L7dEP4ObQ","https://uwmadison.co1.qualtrics.com/jfe/form/SV_816GUxhZ59pp7ZI"]
         const resultDiv = document.getElementById("result");
-        resultDiv.innerHTML = `Please click the below link to continue the survey. <br> Group ${closestGroup}.<br><br>`;
+        resultDiv.innerHTML = `Please click the below link to continue the survey. <br> Group ${links[closestGroup]}.<br><br>`;
     }
 </script>
 
