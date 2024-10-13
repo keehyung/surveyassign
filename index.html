@@ -114,7 +114,7 @@
         // Display the result
         const links = ["https://uwmadison.co1.qualtrics.com/jfe/form/SV_4Jh2d38JAToAb5k","https://uwmadison.co1.qualtrics.com/jfe/form/SV_01bQS5L7dEP4ObQ","https://uwmadison.co1.qualtrics.com/jfe/form/SV_816GUxhZ59pp7ZI"]
         const resultDiv = document.getElementById("result");
-        resultDiv.innerHTML = `Please click the below link to continue the survey. <br> <a href=\"${links[closestGroup]}\">Go to Survey Website</a><br><br>`;
+        resultDiv.innerHTML = `Please note that as part of this survey, you will be asked to respond to the same set of above questions later on as an attention check. This is to ensure consistency and accuracy in your responses. Your careful attention to these questions is important for the quality of the study.<br><br>Please click the below link to continue the survey.<br> <a href=\"${links[closestGroup]}\">Go to Survey Website</a><br><br>`;
 
     }
 </script>
